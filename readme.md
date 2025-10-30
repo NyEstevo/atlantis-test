@@ -33,7 +33,7 @@ not ok 1 - default.json - rd.terraform.datadog.monitor -
     🏷️ **Tabela de Tags:**
     | 🏷️ Campo | ❌ Valor Atual | ✅ Valor Esperado | 📊 Status |
     |---------|---------------|------------------|----------|
-    | `tags` | `["env:production", "service:rd-chat-api"]` | `["product:<name>", "playbook-ops"]` | ❌ |
+    | `tags` | `["env:production", "service:rd-chat-api"]` | `⚠️ Acrecentar tags: ["product:<name>", "playbook-ops"]` | ❌ |
 
     📝 **Tabela de Priority:**
     | 🏷️ Campo | ❌ Valor Atual | ✅ Valor Esperado | 📊 Status |
@@ -70,7 +70,7 @@ not ok 2 - default.json - rd.terraform.datadog.monitor -
     🏷️ **Tabela de Tags:**
     | 🏷️ Campo | ❌ Valor Atual | ✅ Valor Esperado | 📊 Status |
     |---------|---------------|------------------|----------|
-    | `tags` | `["env:production", "service:rd-chat-api"]` | `["product:<name>", "playbook-ops"]` | ❌ |
+    | `tags` | `["env:production", "service:rd-chat-api"]` | `⚠️ Acrecentar tags: ["product:<name>", "playbook-ops"]` | ❌ |
 
     📝 **Tabela de Priority:**
     | 🏷️ Campo | ❌ Valor Atual | ✅ Valor Esperado | 📊 Status |
