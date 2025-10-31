@@ -3,9 +3,9 @@ not ok 1 - default.json - rd.terraform.datadog.monitor -
 <details><summary>🔍 Clique para ver detalhes da violação</summary>
 
 
-  - ⚙️ **CONFIGURAÇÃO** **datadog_monitor.tfer--monitor_OPS-TESTE** 🔴 **HIGH**
-📊 **6 violações encontradas**
-📈 📊 Progresso: 60% (6/10)
+  - **Teste de monitor** 
+
+  - 🔴 **HIGH** | **📈 Progresso total: 60% (6/10)** |
 
     📝 **Tabela de Message:**
     | 🏷️ Campo | ❌ Valor Atual | ✅ Valor Esperado | 📊 Status |
@@ -16,12 +16,12 @@ not ok 1 - default.json - rd.terraform.datadog.monitor -
     📝 **Tabela de Escalation Message:**
     | 🏷️ Campo | ❌ Valor Atual | ✅ Valor Esperado | 📊 Status |
     |---------|---------------|------------------|----------|
-    | `escalation_message` | `testando escalation message` | `[P4][OPSCENTRAL][MONITOR][TESTE][PRODUCTION] Mock de dados para teste de nome @webhook-incidentio` | ❌ |
+    | `escalation_message` | `testando escalation message` | `[P<0-4>][PRODUTO][DOMÍNIO][TIME][AMBIENTE] descrição @webhook-incidentio` | ❌ |
 
     🏷️ **Tabela de Tags:**
     | 🏷️ Campo | ❌ Valor Atual | ✅ Valor Esperado | 📊 Status |
     |---------|---------------|------------------|----------|
-    | `tags` | `["env:production", "service:rd-chat-api"]` | `⚠️ Acrecentar tags: ["product:<name>", "playbook-ops"]` | ❌ |
+    | `tags` | `["env:production", "service:rd-chat-api"]` | `⚠️ Acrecentar tags: ["product:<name>", "playbook-ops", "time:<name>"]` | ❌ |
 
     📝 **Tabela de Name:**
     | 🏷️ Campo | ❌ Valor Atual | ✅ Valor Esperado | 📊 Status |
@@ -31,9 +31,9 @@ not ok 1 - default.json - rd.terraform.datadog.monitor -
     📋 **Tabela de Propriedades:**
     | 🏷️ Campo | ❌ Valor Atual | ✅ Valor Esperado | 📊 Status |
     |---------|---------------|------------------|----------|
-    | `renotify_occurrences` | `35` | `72` | ❌ |
+    | `renotify_occurrences` | `35` | `3` | ❌ |
     | `timeout_h` | `0` | `1` | ❌ |
-    | `renotify_interval` | `24` | `60` | ❌ |
+    | `renotify_interval` | `24` | `20` | ❌ |
 
     📝 **Tabela de Priority:**
     | 🏷️ Campo | ❌ Valor Atual | ✅ Valor Esperado | 📊 Status |
@@ -45,9 +45,9 @@ not ok 2 - default.json - rd.terraform.datadog.monitor -
 <details><summary>🔍 Clique para ver detalhes da violação</summary>
 
 
-  - ⚙️ **CONFIGURAÇÃO** **datadog_monitor.tfer--monitor_OPS-TESTE22** 🔴 **HIGH**
-📊 **5 violações encontradas**
-📈 📊 Progresso: 50% (5/10)
+  - **[P0][RDSM][RELATIONSHIP][PRODUCTION] Teste de monitor** 
+
+  - 🔴 **HIGH** | **📈 Progresso total: 50% (5/10)** |
 
     📝 **Tabela de Message:**
     | 🏷️ Campo | ❌ Valor Atual | ✅ Valor Esperado | 📊 Status |
@@ -58,12 +58,12 @@ not ok 2 - default.json - rd.terraform.datadog.monitor -
     📝 **Tabela de Escalation Message:**
     | 🏷️ Campo | ❌ Valor Atual | ✅ Valor Esperado | 📊 Status |
     |---------|---------------|------------------|----------|
-    | `escalation_message` | `testando escalation message` | `[P4][OPSCENTRAL][MONITOR][TESTE][PRODUCTION] Mock de dados para teste de nome @webhook-incidentio` | ❌ |
+    | `escalation_message` | `testando escalation message` | `[P<0-4>][PRODUTO][DOMÍNIO][TIME][AMBIENTE] descrição @webhook-incidentio` | ❌ |
 
     🏷️ **Tabela de Tags:**
     | 🏷️ Campo | ❌ Valor Atual | ✅ Valor Esperado | 📊 Status |
     |---------|---------------|------------------|----------|
-    | `tags` | `["env:production", "service:rd-chat-api"]` | `⚠️ Acrecentar tags: ["product:<name>", "playbook-ops"]` | ❌ |
+    | `tags` | `["env:production", "service:rd-chat-api"]` | `⚠️ Acrecentar tags: ["product:<name>", "playbook-ops", "time:<name>"]` | ❌ |
 
     📋 **Tabela de Propriedades:**
     | 🏷️ Campo | ❌ Valor Atual | ✅ Valor Esperado | 📊 Status |
